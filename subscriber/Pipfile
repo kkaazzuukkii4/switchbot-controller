@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[[source]]
+url = "https://www.piwheels.org/simple"
+verify_ssl = true
+name = "piwheels"
+
+[packages]
+pybluez = "*"
+gattlib = "*"
+awscrt = { version = "*", index = "piwheels" }
+awsiot = "*"
+awsiotsdk = "*"
+pexpect = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"

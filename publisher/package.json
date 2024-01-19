@@ -1,0 +1,22 @@
+{
+  "name": "switchbot-skill",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ask-sdk-core": "^2.12.1",
+    "ask-sdk-model": "^1.39.0",
+    "aws-iot-device-sdk-v2": "^1.8.11",
+    "aws-sdk": "^2.1265.0"
+  },
+  "devDependencies": {
+    "@types/aws-iot-device-sdk": "^2.2.4",
+    "@types/node": "^18.11.10"
+  }
+}
